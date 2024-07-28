@@ -1,0 +1,12 @@
+USERNAME ,HOSTNAME AND PASSWORD COMMANDS
+sudo su -
+pkill -u kali
+usermod -l kalki kali
+usermod -d /home/kalki -m kalki
+groupmod -n kalki kali
+
+sudo/etc/hosts
+127.0.1.1 kalki
+hostnamectl set-hostname kalki
+
+passwd
